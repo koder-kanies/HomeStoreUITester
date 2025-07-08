@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify item is added to the cart - PASSED | Value: true]]>
+    </line>
+    <line>
+      <![CDATA[Test is waiting for 5 seconds.]]>
+    </line>
+    <line>
+      <![CDATA[Verify items in cart - PASSED | Value: [Multi-colored pillows, Wooden rocking chair]]]>
+    </line>
+    <line>
+      <![CDATA[Verify total cart value - PASSED | Value: 99.99]]>
+    </line>
+    <line>
+      <![CDATA[Validate returned password - PASSED | Value: test12345]]>
+    </line>
+    <line>
+      <![CDATA[Verify error message - PASSED | Value: Invalid payment method.]]>
+    </line>
+    <line>
+      <![CDATA[Test is waiting for 10 seconds.]]>
+    </line>
+    <line>
+      <![CDATA[Verify quantity of Comfortable gray bed - PASSED | Value: 2]]>
+    </line>
+    <line>
+      <![CDATA[Verify quantity of Medium white couch - PASSED | Value: 1]]>
+    </line>
+    <line>
+      <![CDATA[Verify update cart message - PASSED | Value: Cart updated.]]>
+    </line>
+    <line>
+      <![CDATA[Verify quantity of Comfortable gray bed - PASSED | Value: 1]]>
+    </line>
+    <line>
+      <![CDATA[Verify quantity of Medium white couch - PASSED | Value: 2]]>
+    </line>
+    <line>
+      <![CDATA[Verify total cart price is updated. First item: 250.0, Second item: 180.0 x 2 - PASSED | Value: 610.0]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-08T03:59:52 IST" name="Default suite" finished-at="2025-07-08T04:00:31 IST" duration-ms="38936">
+    <groups>
+    </groups>
+    <test started-at="2025-07-08T03:59:52 IST" name="Default test" finished-at="2025-07-08T04:00:31 IST" duration-ms="38936">
+      <class name="com.homestore.ui.tests.UITests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T03:59:52 IST" name="setUp" finished-at="2025-07-08T03:59:55 IST" duration-ms="3207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T03:59:55 IST" name="loadApplication" finished-at="2025-07-08T03:59:59 IST" duration-ms="3309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="testAddItemsAndCheckoutPaymentError()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T03:59:59 IST" name="testAddItemsAndCheckoutPaymentError" description="Validates the complete e-commerce flow of adding items to the cart, proceeding to checkout, creating a new account with shipping details, and attempting to place an order—expecting failure due to a missing or unsupported payment method." finished-at="2025-07-08T04:00:14 IST" duration-ms="15412" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify item is added to the cart - PASSED | Value: true]]>
+            </line>
+            <line>
+              <![CDATA[Test is waiting for 5 seconds.]]>
+            </line>
+            <line>
+              <![CDATA[Verify items in cart - PASSED | Value: [Multi-colored pillows, Wooden rocking chair]]]>
+            </line>
+            <line>
+              <![CDATA[Verify total cart value - PASSED | Value: 99.99]]>
+            </line>
+            <line>
+              <![CDATA[Validate returned password - PASSED | Value: test12345]]>
+            </line>
+            <line>
+              <![CDATA[Verify error message - PASSED | Value: Invalid payment method.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddItemsAndCheckoutPaymentError -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T04:00:14 IST" name="cleanUp" finished-at="2025-07-08T04:00:14 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T04:00:14 IST" name="loadApplication" finished-at="2025-07-08T04:00:15 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApplication -->
+        <test-method signature="testAddItemsFromHomeAndUpdateCart()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T04:00:15 IST" name="testAddItemsFromHomeAndUpdateCart" description="Validates that user can add items from home page, update cart quantities, and verify recalculated totals." finished-at="2025-07-08T04:00:30 IST" duration-ms="14902" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test is waiting for 10 seconds.]]>
+            </line>
+            <line>
+              <![CDATA[Verify quantity of Comfortable gray bed - PASSED | Value: 2]]>
+            </line>
+            <line>
+              <![CDATA[Verify quantity of Medium white couch - PASSED | Value: 1]]>
+            </line>
+            <line>
+              <![CDATA[Verify update cart message - PASSED | Value: Cart updated.]]>
+            </line>
+            <line>
+              <![CDATA[Verify quantity of Comfortable gray bed - PASSED | Value: 1]]>
+            </line>
+            <line>
+              <![CDATA[Verify quantity of Medium white couch - PASSED | Value: 2]]>
+            </line>
+            <line>
+              <![CDATA[Verify total cart price is updated. First item: 250.0, Second item: 180.0 x 2 - PASSED | Value: 610.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddItemsFromHomeAndUpdateCart -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T04:00:30 IST" name="cleanUp" finished-at="2025-07-08T04:00:30 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.homestore.ui.tests.UITests@29626d54]" started-at="2025-07-08T04:00:30 IST" name="tearDown" finished-at="2025-07-08T04:00:31 IST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.homestore.ui.tests.UITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
